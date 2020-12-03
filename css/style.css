@@ -6,13 +6,13 @@
   padding: 0;
 }
 body {
-	background-image: url("file:///E:/Dev/Exercice%20Bootstrap/images/0001.jpg");
+	background-image: url("../images/0001.jpg");
 }
 .main-text
 {
     position: absolute;
-    top: 44%;
-margin-left: auto;
+    top: 30%;
+margin-left: 15%;
     color: #FFF;
 	background-color: #00000050;
 	width: 70%;
@@ -22,7 +22,13 @@ margin-left: auto;
 	max-height: 800px;
 	object-fit: contain;
 }
+.carousel-control-prev-icon {
+ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
 
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
 .carousel img {
 	max-width: 1920px;
 	max-height: 800px;
@@ -36,25 +42,69 @@ hr {
 	border: 2px solid #dfcb00;
 	margin: 2% auto;
 }
-
+svg {
+	width: 30px;
+}
+.modal-content {
+	padding: 20px;
+}
+.map-container{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-container iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
 html {
   font-size: 1rem;
 }
+#headingOne, #headingTwo, #headingThree {
+	background-color: #dfcb00;
+	border: 1px solid black;
+		border-radius: 10px;
+}
 
-@include media-breakpoint-up(sm) {
+.accordion button {
+	color: black;
+}
+.form-group {
+	margin: 0px;
+}
+/*// Small devices (landscape phones, 576px and up)
+*/@media (max-width: 576px) { 
+  html {
+    font-size: 1rem;
+  }
+	.carousel img {
+	max-width: 600px;
+	max-height: 200px;
+	object-fit: cover;
+  }
+}
+
+/*// Medium devices (tablets, 768px and up)
+*/@media (max-width: 768px) { 
   html {
     font-size: 1.2rem;
   }
 }
 
-@include media-breakpoint-up(md) {
-  html {
-    font-size: 1.4rem;
+/*// Large devices (desktops, 992px and up)
+*/@media (max-width: 992px) {   
+	html {
+    font-size: 1.2rem;
   }
 }
 
-@include media-breakpoint-up(lg) {
-  html {
-    font-size: 1.6rem;
+/*// Extra large devices (large desktops, 1200px and up)
+*/@media (max-width: 1200px) {   
+	html {
+    font-size: 1.4rem;
   }
 }
