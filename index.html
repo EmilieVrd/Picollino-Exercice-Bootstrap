@@ -10,9 +10,9 @@
 <link href="css/style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-<!-----------------NAVBAR------------------->
+<!--                NAVBAR               -->
 <nav class="navbar fixed-top navbar-expand-lg navbar-light">
-  <div class="container"> <a class="navbar-brand" href="#"><img src="assets/images/Logobasdef.PNG" width="250" id="logo" alt ="logo picollino"></a>
+  <a class="navbar-brand" href="#"><img src="assets/images/Logobasdef.PNG" width="250" id="logo" alt ="logo picollino"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ml-auto">
@@ -22,9 +22,8 @@
         <li class="nav-item"> <a class="nav-link" href="#contact">Contact</a> </li>
       </ul>
     </div>
-  </div>
 </nav>
-<!-----------SLIDESHOW----------------->
+<!--      SLIDESHOW        -->
 <div class="container-fluid mt-4">
   <div class="row">
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
@@ -34,7 +33,7 @@
         <li data-target="#carouselExampleControls" data-slide-to="2"></li>
         <li data-target="#carouselExampleControls" data-slide-to="3"></li>
       </ol>
-      <!-----------CAPTIONS--------------->
+      <!--     CAPTIONS      -->
       <div class="carousel-inner">
         <div class="carousel-item active"> <img class="d-block w-100" src="assets/images/slide1_fhd.jpg" alt="First slide">
           <div class="carousel-caption d-none d-md-block">
@@ -136,13 +135,13 @@
       <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>
   </div>
 </div>
-<h2 class="ml-4 mt-4 text-left">Nos Gammes</h2>
-<hr>
+<h2 class="ml-5 text-left">Nos Gammes</h2>
+<hr class="line">
 <p class="h3 m-4 text-center">Picollino ameublement, fort de ses 800 ans d’experience,
   vous propose plusieurs gamme de mobilier. </p>
-<!-- NOS GAMMES CARD CONTAINER + modal (all differents)-->
+<!--    NOS GAMMES CARD CONTAINER + modal (all differents)  -->
 <div class="container-fluid" id="gammes">
-  <div class="row text-left">
+  <div class="row text-left m-lg-5">
     <div class="col-lg-3 col-md-6 pb-1 pb-md-0">
       <div class="card w-75 shadow-lg mx-auto"> <img class="card-img-top" src="https://dummyimage.com/400x200/dbd000/000" alt="Card image cap">
         <div class="card-body">
@@ -152,7 +151,14 @@
           <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">Lire la suite</button>
           <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-lg">
-              <div class="modal-content"> <img src="https://dummyimage.com/600x400/000/fff" alt="illustration gamme">
+                            <div class="modal-content">        
+				  <button type="button" class="close ml-auto" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>        
+				  <button type="button" class="close ml-auto" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+				  <img src="https://dummyimage.com/600x400/000/fff" alt="illustration gamme">
                 <h2>Gamme 1</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit non explicabo reiciendis, accusantium enim, quibusdam vero quisquam fugit nostrum repudiandae eaque nulla unde voluptatum, corrupti maxime velit! Voluptate ullam voluptates dolorem quidem vero laborum aliquam delectus iusto nobis eaque ipsa reiciendis nesciunt voluptatibus ipsam corrupti architecto praesentium odit dolores, ea.</p>
               </div>
@@ -170,7 +176,10 @@
           <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-modal-lg-2">Lire la suite</button>
           <div class="modal fade bd-modal-lg-2" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-lg">
-              <div class="modal-content"> <img src="https://dummyimage.com/600x400/000/fff" alt="illustration gamme">
+                            <div class="modal-content">        
+				  <button type="button" class="close ml-auto" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button> <img src="https://dummyimage.com/600x400/000/fff" alt="illustration gamme">
                 <h2>Gamme 2</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit non explicabo reiciendis, accusantium enim, quibusdam vero quisquam fugit nostrum repudiandae eaque nulla unde voluptatum, corrupti maxime velit! Voluptate ullam voluptates dolorem quidem vero laborum aliquam delectus iusto nobis eaque ipsa reiciendis nesciunt voluptatibus ipsam corrupti architecto praesentium odit dolores, ea.</p>
               </div>
@@ -188,7 +197,10 @@
           <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-modal-lg-3">Lire la suite</button>
           <div class="modal fade bd-modal-lg-3" tabindex="-1" role="dialog" aria-labelledby="modal3" aria-hidden="true">
             <div class="modal-dialog modal-lg">
-              <div class="modal-content"> <img src="https://dummyimage.com/600x400/000/fff" alt="illustration gamme">
+                            <div class="modal-content">        
+				  <button type="button" class="close ml-auto" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button> <img src="https://dummyimage.com/600x400/000/fff" alt="illustration gamme">
                 <h2>Gamme 3</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit non explicabo reiciendis, accusantium enim, quibusdam vero quisquam fugit nostrum repudiandae eaque nulla unde voluptatum, corrupti maxime velit! Voluptate ullam voluptates dolorem quidem vero laborum aliquam delectus iusto nobis eaque ipsa reiciendis nesciunt voluptatibus ipsam corrupti architecto praesentium odit dolores, ea.</p>
               </div>
@@ -206,7 +218,10 @@
           <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-modal-lg-4">Lire la suite</button>
           <div class="modal fade bd-modal-lg-4" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-lg">
-              <div class="modal-content"> <img src="https://dummyimage.com/600x400/000/fff" alt="illustration gamme">
+                            <div class="modal-content">        
+				  <button type="button" class="close ml-auto" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button> <img src="https://dummyimage.com/600x400/000/fff" alt="illustration gamme">
                 <h2>Gamme 4</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit non explicabo reiciendis, accusantium enim, quibusdam vero quisquam fugit nostrum repudiandae eaque nulla unde voluptatum, corrupti maxime velit! Voluptate ullam voluptates dolorem quidem vero laborum aliquam delectus iusto nobis eaque ipsa reiciendis nesciunt voluptatibus ipsam corrupti architecto praesentium odit dolores, ea.</p>
               </div>
@@ -216,7 +231,7 @@
       </div>
     </div>
   </div>
-  <div class="row text-left mt-4">
+  <div class="row text-left mt-4 m-lg-5">
     <div class="col-lg-3 col-md-6 pb-1 pb-md-0">
       <div class="card w-75 shadow-lg mx-auto"> <img class="card-img-top" src="assets/images/400X200.gif" alt="Card image cap">
         <div class="card-body">
@@ -226,7 +241,10 @@
           <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-modal-lg-5">Lire la suite</button>
           <div class="modal fade bd-modal-lg-5" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-lg">
-              <div class="modal-content"> <img src="https://dummyimage.com/600x400/000/fff" alt="illustration gamme">
+                            <div class="modal-content">        
+				  <button type="button" class="close ml-auto" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button> <img src="https://dummyimage.com/600x400/000/fff" alt="illustration gamme">
                 <h2>Gamme 5</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit non explicabo reiciendis, accusantium enim, quibusdam vero quisquam fugit nostrum repudiandae eaque nulla unde voluptatum, corrupti maxime velit! Voluptate ullam voluptates dolorem quidem vero laborum aliquam delectus iusto nobis eaque ipsa reiciendis nesciunt voluptatibus ipsam corrupti architecto praesentium odit dolores, ea.</p>
               </div>
@@ -244,7 +262,10 @@
           <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-modal-lg-6">Lire la suite</button>
           <div class="modal fade bd-modal-lg-6" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-lg">
-              <div class="modal-content"> <img src="https://dummyimage.com/600x400/000/fff" alt="illustration gamme">
+                            <div class="modal-content">        
+				  <button type="button" class="close ml-auto" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button> <img src="https://dummyimage.com/600x400/000/fff" alt="illustration gamme">
                 <h2>Gamme 6</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit non explicabo reiciendis, accusantium enim, quibusdam vero quisquam fugit nostrum repudiandae eaque nulla unde voluptatum, corrupti maxime velit! Voluptate ullam voluptates dolorem quidem vero laborum aliquam delectus iusto nobis eaque ipsa reiciendis nesciunt voluptatibus ipsam corrupti architecto praesentium odit dolores, ea.</p>
               </div>
@@ -262,7 +283,10 @@
           <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-modal-lg-7">Lire la suite</button>
           <div class="modal fade bd-modal-lg-7" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-lg">
-              <div class="modal-content"> <img src="https://dummyimage.com/600x400/000/fff" alt="illustration gamme">
+                            <div class="modal-content">        
+				  <button type="button" class="close ml-auto" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button> <img src="https://dummyimage.com/600x400/000/fff" alt="illustration gamme">
                 <h2>Gamme 7</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit non explicabo reiciendis, accusantium enim, quibusdam vero quisquam fugit nostrum repudiandae eaque nulla unde voluptatum, corrupti maxime velit! Voluptate ullam voluptates dolorem quidem vero laborum aliquam delectus iusto nobis eaque ipsa reiciendis nesciunt voluptatibus ipsam corrupti architecto praesentium odit dolores, ea.</p>
               </div>
@@ -280,7 +304,10 @@
           <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-modal-lg-8">Lire la suite</button>
           <div class="modal fade bd-modal-lg-8" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-lg">
-              <div class="modal-content"> <img src="https://dummyimage.com/600x400/000/fff" alt="illustration gamme">
+                            <div class="modal-content">        
+				  <button type="button" class="close ml-auto" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button> <img src="https://dummyimage.com/600x400/000/fff" alt="illustration gamme">
                 <h2>Gamme 8</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit non explicabo reiciendis, accusantium enim, quibusdam vero quisquam fugit nostrum repudiandae eaque nulla unde voluptatum, corrupti maxime velit! Voluptate ullam voluptates dolorem quidem vero laborum aliquam delectus iusto nobis eaque ipsa reiciendis nesciunt voluptatibus ipsam corrupti architecto praesentium odit dolores, ea.</p>
               </div>
@@ -291,9 +318,9 @@
     </div>
   </div>
 </div>
+	<!--          HISTOIRE+PORTRAITS                 -->
 <h2 class="ml-5 mt-5 text-left">Notre histoire</h2>
-<hr class="w-75 mb-5">
-<!-------------------NOTRE HISTOIRE/PORTRAITS-------------------------->
+<hr class="mb-5 line">
 <div class="container">
   <p class="h3 text-center">Longue descendance de menuisier Italien, la famille Piccolino
     s’installe en France au début du XIXe sciecle.</p>
@@ -322,7 +349,7 @@
   </div>
 </div>
 
-<!-----------------NOS ORIGINES HISTOIRE-------------------->
+<!-----------------NOS ORIGINES+INFRASTRUCTURES-------------------->
 <hr class="w-50 mt-5 mb-5">
 <div class="container nosorigines my-auto" id="histoire">
   <div class="row">
@@ -397,12 +424,12 @@
 </div>
 <!----------------------FOOTER START-------------------------->
 <footer id="contact">
-  <div class="container-fluid text-black mt-5 py-5">
+  <div class="container-fluid text-black mt-5">
     <div class="row text-center"> 
       <!-- ADRESS + social media icons-->
-      <div class="col-md-4 col-12">
-        <address>
-        <img src="assets/images/Logobasdef.PNG" alt="logo entreprise" width="180"><br>
+      <div class="col-md-4 col-12 mt-lg-5">
+        <address class="">
+        <img src="assets/images/Logobasdef.PNG" alt="logo entreprise" width="250"><br>
         55, rue de Vincennes<br>
         93100 Montreuil<br>
         <br>
@@ -492,7 +519,7 @@
         </address>
       </div>
       <!-------------------------CONTACT FORM------------------>
-      <div class="col-sm-6 col-md-4 col-12">
+      <div class="col-md-4 col-12">
         <p class="h4">Nous contacter</p>
         <form class="text-left w-75 mx-auto">
           <div class="form-group">

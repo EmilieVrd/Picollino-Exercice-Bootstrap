@@ -32,13 +32,15 @@ img {
 .navbar {
 	background-color: white;
 	border-bottom: solid 2px #DFCB00;
-	font-size: 1.8em;
+	font-size: 1.6em;
 	letter-spacing: 0.1em;
-	height: 90px;
+	height: 70px;
 }
 .navbar a {
-	padding-left: 50px;
-	padding-right: 10px;
+	margin-right: 40px;
+}
+#navbarSupportedContent {
+	background-color: white;
 }
 .carousel-caption {
 	background-color: rgba(0,0,0,0.60);
@@ -71,7 +73,9 @@ img {
 .nosorigines {
 	width: 50%;
 }
-
+.line {
+	width: 93%;
+}
 
 
 /*accordion*/
@@ -96,7 +100,7 @@ footer {
 }
 
 svg {
-	width: 45px;
+	width: 60px;
 	padding: 5px;
 }
 
@@ -118,14 +122,9 @@ position:absolute;
 /*// Small devices (landscape phones, 576px and up)
 */@media (max-width: 576px) { 
   html {
-    font-size: 1.0rem;
+    font-size: 1.4rem;
   }
-	.carousel-inner {
-		margin-top: 13%;
-	}
 	.carousel img {
-	max-width: 600px;
-	max-height: 200px;
 	object-fit: cover;
   }
 }
@@ -133,7 +132,7 @@ position:absolute;
 /*// Medium devices (tablets, 768px and up)
 */@media (max-width: 768px) { 
   html {
-    font-size: 1.0rem;
+    font-size: 1.4rem;
   }
 	.nosorigines {
 		width: 100%;
@@ -150,6 +149,9 @@ position:absolute;
   max-width: 200px;
   height: auto;
 	}
+	.carousel-caption {
+	bottom: 20%;
+}
 }
 
 /*// Extra large devices (large desktops, 1200px and up)
