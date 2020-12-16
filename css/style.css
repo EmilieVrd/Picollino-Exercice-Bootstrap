@@ -39,6 +39,11 @@ img {
 .navbar a {
 	margin-right: 40px;
 }
+.navbar-toggler {
+	baground-color: white;
+	color: white;
+	
+}
 #navbarSupportedContent {
 	background-color: white;
 }
